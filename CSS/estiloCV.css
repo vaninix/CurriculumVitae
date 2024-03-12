@@ -1,0 +1,60 @@
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 0; /* es para el espacio entre el borde superior y el encabezado */
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 10px auto; /* es para el margen de la foto */
+    border-radius: 50%; /* forma circular*/
+    border: 5px solid rgb(114, 111, 111);
+    height: 250px;
+    width: 250px;
+    object-fit: cover; /* hace que se llene todo el circulo con la img */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black; 
+    
+}
+
+iframe {
+    width: 300; 
+    height: 200; 
+    border: none; /* para la eliminación del borde */
+}
+
+header {
+    padding: 20px; /* Añade un poco de espacio alrededor del encabezado */
+    color: white;
+    background-color: rgb(160, 171, 221);
+    clear: left;
+    text-align: center;
+}
+
+.subtitulo {
+    background-color: rgb(197, 197, 255); /* Color de fondo */
+    border: 1px solid rgb(197, 197, 255); /* color del borde del ovalo */
+    border-radius: 50px; /* para que tenga forma ovalada */
+    padding: 10px 20px; /* Espaciado interno */
+    display: inline-block; /* es para que el elemento ocupe solo el espacio necesario */
+}
+
+
+legend {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contenedor-imagenes {
+    display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+}
+
+
+
+
